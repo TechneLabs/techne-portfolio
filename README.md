@@ -1,2 +1,2 @@
 # techne-portfolio
-Single page website for portfolio
+Single page website for Techne Labs portfolio

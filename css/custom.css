@@ -5,3 +5,46 @@
 .services-header {
     color: #ffc200;
 }
+
+/* Services */
+.service-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 22px 18px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.service-card__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: rgba(255, 194, 0, 0.12);
+    color: #474559;
+    margin-bottom: 12px;
+}
+
+.service-card__icon .uil {
+    font-size: 28px;
+    line-height: 1;
+}
+
+.service-card__title {
+    margin-bottom: 10px;
+}
+
+.service-card__text {
+    margin-bottom: 0;
+}
+
+/* Contact */
+.contact-label {
+    display: block;
+    font-weight: 700;
+    margin: 10px 0 6px;
+    color: #353535;
+}

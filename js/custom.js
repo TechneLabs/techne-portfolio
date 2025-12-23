@@ -12,12 +12,14 @@
     $(".navbar").headroom();
 
     // PROJECT CAROUSEL
-    $('.owl-carousel').owlCarousel({
-    	items: 1,
-	    loop:true,
-	    margin:10,
-	    nav:true
-	});
+    if ($('.owl-carousel').length) {
+      $('.owl-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 10,
+        nav: true
+      });
+    }
 
     // SMOOTHSCROLL
     $(function() {
@@ -31,6 +33,8 @@
     });  
 
     // TOOLTIP
-    $('.social-links a').tooltip();
+    if ($('.social-links a').length) {
+      $('.social-links a').tooltip();
+    }
 
 })(jQuery);

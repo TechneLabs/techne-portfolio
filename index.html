@@ -8,6 +8,10 @@
 
     <title>Technefide Labs</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/unicons.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -24,7 +28,7 @@
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i> Techne</a>
+            <a class="navbar-brand" href="index.html"><span class="navbar-brand__mark" aria-hidden="true"></span> Techne</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -82,7 +86,7 @@
                         
                         <div class="custom-btn-group mt-4">
 <!--                          <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>-->
-                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
+                          <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get in touch</a>
                         </div>
                     </div>
                 </div>
@@ -169,51 +173,16 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-8 col-12 mx-auto">
-            <div class="contact-form">
-              <h2 class="mb-4 text-center">Let’s talk</h2>
-
-              <form action="#" method="post">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <label class="contact-label" for="name">Name</label>
-                    <input type="text" class="form-control" name="name" id="name" autocomplete="name" required>
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <label class="contact-label" for="email">Email</label>
-                    <input type="email" class="form-control" name="email" id="email" autocomplete="email" required>
-                  </div>
-
-                  <div class="col-12">
-                    <label class="contact-label" for="message">Message</label>
-                    <textarea name="message" rows="6" class="form-control" id="message" required></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send message">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
     <!-- FOOTER -->
-     <footer class="footer py-5">
+     <footer class="footer site-footer py-5" id="contact">
           <div class="container">
                <div class="row">
 
                     <div class="col-lg-12 col-12">
-                        <p class="copyright-text text-center">Copyright &copy; 2025 Technefide Labs Private Limited. All rights reserved.</p>
+                        <p class="footer-contact text-center">
+                          <a href="mailto:contactus@technefidelabs.com" class="footer-contact__link">contactus@technefidelabs.com</a>
+                        </p>
+                        <p class="copyright-text copyright-text--lead text-center">Copyright &copy; 2026 Technefide Labs Private Limited. All rights reserved.</p>
                         <p class="copyright-text text-center mb-1">H NO.272 FL NO.12 A JAIN, COMPLEX BL NR DATTA CLUB RASTA PETH, PUNE - 411011, Maharashtra India</p>
                         <p class="copyright-text text-center">Branch: Seattle WA</p>
                     </div>
